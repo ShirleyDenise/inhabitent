@@ -135,15 +135,28 @@ a {
 # Style
 --------------------------------------------------------------*/
 
-.main-navigation {
+.hfeed.site
+{
 	display: flex;
+	flex-wrap: wrap;
+}
+
+.main-navigation {
+	position: fixed;
+	display: flex;
+    z-index: 3;
+	background-color: hsla(0,0%,100%,.85);
+	transition: background .5s ease-in-out;
 	flex-direction: row;
 	justify-content: space-between;
+	flex-wrap: wrap;
+	width: 100%;
 	border-bottom: 1px solid #e1e1e1;
 	padding-left: 5rem;
 	padding-right: 5rem;
 	height: 50px;
 	align-items: center;
+	
 	
 }
 
