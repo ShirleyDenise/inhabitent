@@ -222,6 +222,34 @@ th {
 /*--------------------------------------------------------------
 # Embedded Fonts
 --------------------------------------------------------------*/
+@font-face {
+  font-family: 'merriweather';
+  src: url("merriweather-bold-webfont.eot");
+  src: url("merriweather-bold-webfont.eot?#iefix") format("embedded-opentype"), url("merriweather-bold-webfont.woff2") format("woff2"), url("merriweather-bold-webfont.ttf") format("truetype"), url("merriweather-bold-webfont.svg#merriweatherbold") format("svg");
+  font-weight: bold;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'merriweather';
+  src: url("merriweather-bolditalic-webfont.eot");
+  src: url("merriweather-bolditalic-webfont.eot?#iefix") format("embedded-opentype"), url("merriweather-bolditalic-webfont.woff2") format("woff2"), url("merriweather-bolditalic-webfont.ttf") format("truetype"), url("merriweather-bolditalic-webfont.svg#merriweatherbold_italic") format("svg");
+  font-weight: bold;
+  font-style: italic; }
+
+@font-face {
+  font-family: 'merriweather';
+  src: url("merriweather-light-webfont.eot");
+  src: url("merriweather-light-webfont.eot?#iefix") format("embedded-opentype"), url("merriweather-light-webfont.woff2") format("woff2"), url("merriweather-light-webfont.ttf") format("truetype"), url("merriweather-light-webfont.svg#merriweatherlight") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'merriweather';
+  src: url("merriweather-lightitalic-webfont.eot");
+  src: url("merriweather-lightitalic-webfont.eot?#iefix") format("embedded-opentype"), url("merriweather-lightitalic-webfont.woff2") format("woff2"), url("merriweather-lightitalic-webfont.ttf") format("truetype"), url("merriweather-lightitalic-webfont.svg#merriweatherlight_italic") format("svg");
+  font-weight: normal;
+  font-style: italic; }
+
 /*--------------------------------------------------------------
 # Typography
 --------------------------------------------------------------*/
@@ -338,6 +366,10 @@ img {
 table {
   margin: 0 0 1.5rem;
   width: 100%; }
+
+.header-logo img {
+  width: 50px;
+  height: 33 px; }
 
 /*--------------------------------------------------------------
 # Forms
@@ -483,6 +515,32 @@ a {
   float: right;
   text-align: right;
   width: 50%; }
+
+/*--------------------------------------------------------------
+# Style
+--------------------------------------------------------------*/
+.main-navigation {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: row;
+      flex-direction: row;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+  border-bottom: 1px solid #e1e1e1;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  height: 50px;
+  -ms-flex-align: center;
+      align-items: center; }
+
+.header-logo {
+  width: 50px;
+  height: 33px; }
+
+.menu-main-nav-container a {
+  padding-left: 1rem;
+  color: #248A83;
+  text-transform: uppercase; }
 
 /*--------------------------------------------------------------
 # Accessibility
