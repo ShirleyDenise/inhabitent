@@ -48,6 +48,10 @@
 	display: block;
 }
 
+/*--------------------------------------------------------------
+# Style
+--------------------------------------------------------------*/
+
 
 // CONTENT
 
@@ -64,26 +68,77 @@
 	padding-top: 3rem;
 }
 
-.widget-area {
-	width: 32%;
-	padding-top: 3rem;
-	padding-right: 5rem;
-	padding-left: 5rem;
+.entry-title {
+	position: relative;
+	a {
+		color: #248A83;
+		text-decoration: none;
+	  }
 }
 
 // FOOTER
 
 .site-footer {
+	display: flex;
+	flex-wrap: wrap;
 	width: 100%;
-	height: 330px;
+	height: 350px;
 	background-color: black;
 	background-image: url('../../images/dark-wood.png');
 	background-size: 512px 512px;
+	h3 {
+		color: #d99054;
+		text-transform: uppercase;
+	}
+	p {
+		color: white;
+	}
+	a{
+		text-decoration: none;
+		color: white;
+	}
+	i {
+		font-size: 1.3rem;
+		padding-right: 0.8rem;
+		color: white;
+	}
+}
+
+.bloc-contact {
+	padding-top: 3rem;
+	padding-left: 5rem;
+	padding-right: 5rem;
+}
+
+.bloc-hours {
+	padding-top: 3rem;	
+	.day {
+		font-weight: bold;
+	}
 }
 
 .copyright {
+	width: 100%;
 	color: white;
 	text-transform: uppercase;
 	text-align: center;
 	
 }
+
+.footer-logo {
+	width: 50%;
+	padding-left: 30%;
+	padding-top: 4rem;
+	.text-inha {
+	text-transform: uppercase;
+	}
+	.text-camp {
+	text-transform: uppercase;
+	}
+
+
+}
+
+
+
+

@@ -626,6 +626,33 @@ a {
   display: none; }
 
 /*--------------------------------------------------------------
+# Style
+--------------------------------------------------------------*/
+.widget-area {
+  width: 32%;
+  padding-top: 3rem;
+  padding-right: 5rem;
+  padding-left: 5rem; }
+  .widget-area a {
+    text-decoration: none;
+    color: #248A83; }
+  .widget-area .day {
+    font-weight: bold; }
+  .widget-area i {
+    padding-right: 0.5rem; }
+
+#archives-2 ul {
+  list-style: none;
+  padding: 0px;
+  margin: 0px; }
+  #archives-2 ul a {
+    color: #248A83;
+    text-decoration: none; }
+
+.widget-title {
+  text-transform: uppercase; }
+
+/*--------------------------------------------------------------
 # Content
 --------------------------------------------------------------*/
 /* Posts and pages */
@@ -663,6 +690,9 @@ a {
 .bypostauthor {
   display: block; }
 
+/*--------------------------------------------------------------
+# Style
+--------------------------------------------------------------*/
 .site-content {
   display: -ms-flexbox;
   display: flex;
@@ -676,23 +706,59 @@ a {
   border-right: 1px solid #e1e1e1;
   padding-top: 3rem; }
 
-.widget-area {
-  width: 32%;
-  padding-top: 3rem;
-  padding-right: 5rem;
-  padding-left: 5rem; }
+.entry-title {
+  position: relative; }
+  .entry-title a {
+    color: #248A83;
+    text-decoration: none; }
 
 .site-footer {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   width: 100%;
-  height: 330px;
+  height: 350px;
   background-color: black;
   background-image: url("../../images/dark-wood.png");
   background-size: 512px 512px; }
+  .site-footer h3 {
+    color: #d99054;
+    text-transform: uppercase; }
+  .site-footer p {
+    color: white; }
+  .site-footer a {
+    text-decoration: none;
+    color: white; }
+  .site-footer i {
+    font-size: 1.3rem;
+    padding-right: 0.8rem;
+    color: white; }
+
+.bloc-contact {
+  padding-top: 3rem;
+  padding-left: 5rem;
+  padding-right: 5rem; }
+
+.bloc-hours {
+  padding-top: 3rem; }
+  .bloc-hours .day {
+    font-weight: bold; }
 
 .copyright {
+  width: 100%;
   color: white;
   text-transform: uppercase;
   text-align: center; }
+
+.footer-logo {
+  width: 50%;
+  padding-left: 30%;
+  padding-top: 4rem; }
+  .footer-logo .text-inha {
+    text-transform: uppercase; }
+  .footer-logo .text-camp {
+    text-transform: uppercase; }
 
 /*--------------------------------------------------------------
 # Media
