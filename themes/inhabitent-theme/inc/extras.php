@@ -19,7 +19,7 @@ function red_starter_body_classes( $classes ) {
 }
 add_filter( 'body_class', 'red_starter_body_classes' );
 
-    // custom login for theme
+    // custom login logo for theme
 function wp_admin_logo() {
      echo '<style type="text/css">                                                                   
          #login h1 a { 
@@ -32,6 +32,7 @@ function wp_admin_logo() {
      </style>';
 }
 add_action('login_head', 'wp_admin_logo');
+// Customize the url the logo points to WP login page.
 function admin_logo_url( $url ) {
     return get_bloginfo( 'url' );
 }
