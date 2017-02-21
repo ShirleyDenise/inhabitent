@@ -22,8 +22,13 @@ add_filter( 'body_class', 'red_starter_body_classes' );
     // custom login for theme
 function wp_admin_logo() {
      echo '<style type="text/css">                                                                   
-         h1 a { background-image:url('.get_stylesheet_directory_uri().'/images/inhabitent-logo-text-dark.svg) !important; 
-         height: 120px !important; width: 310px !important; margin-left: -40px; background-size: contain !important;}                            
+         #login h1 a { 
+			 background-image:url('.get_stylesheet_directory_uri().'/images/inhabitent-logo-text-dark.svg) !important; 
+         	 height: 53px !important; width: 300px !important;  background-size: contain !important;
+		 }  
+		 #login .button.button-primary {
+			 background-color: #248A83;
+		 }                          
      </style>';
 }
 add_action('login_head', 'wp_admin_logo');
