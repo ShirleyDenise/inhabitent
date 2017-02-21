@@ -37,9 +37,7 @@
 				</div>
 				<div class="footer-logo">
 					<a href="home" rel="home">
-						<img src="/images/inhabitent-logo-text.svg" alt="text-logo"/>
-						<p><span class="text-inha">Inhabitent</span></p>
-						<p><span class="text-camp">Camping Supply</span> Co.</p>
+						<img src="<?php echo get_template_directory_uri() . '/images/inhabitent-logo-text.svg'; ?>" class="logo" alt="Inhabitent company logo"/>
 					</a>
 				</div>
 				<div class="copyright">Copyright © 2016 Inhabitent</div>

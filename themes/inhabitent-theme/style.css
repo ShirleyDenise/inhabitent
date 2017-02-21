@@ -704,13 +704,35 @@ a {
 .content-area {
   width: 68%;
   border-right: 1px solid #e1e1e1;
-  padding-top: 3rem; }
+  padding-top: 3rem;
+  padding-right: 3.5rem; }
+
+.entry-header {
+  position: relative; }
+  .entry-header img {
+    height: auto;
+    width: 100%; }
 
 .entry-title {
-  position: relative; }
+  position: absolute;
+  top: 0;
+  background-color: #248a83;
+  max-width: 75%;
+  padding: 0.75rem 1.5rem;
+  font-size: 2.1rem; }
   .entry-title a {
-    color: #248A83;
-    text-decoration: none; }
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase; }
+
+.entry-meta {
+  background-color: #248a83;
+  color: #fff;
+  position: absolute;
+  padding: 0.3rem 1.5rem;
+  bottom: 0;
+  right: 0;
+  text-transform: uppercase; }
 
 .site-footer {
   display: -ms-flexbox;
