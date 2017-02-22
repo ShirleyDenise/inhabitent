@@ -636,7 +636,7 @@ a {
   .widget-area a {
     text-decoration: none;
     color: #248A83; }
-  .widget-area .day {
+  .widget-area .day-of-week {
     font-weight: bold; }
   .widget-area i {
     padding-right: 0.5rem; }
@@ -701,7 +701,7 @@ a {
   padding-top: 3rem;
   padding-left: 5rem; }
 
-.content-area {
+.content-area-blog {
   width: 68%;
   border-right: 1px solid #e1e1e1;
   padding-top: 3rem;
@@ -857,6 +857,8 @@ object {
   display: flex;
   -ms-flex-direction: column;
       flex-direction: column;
+  -ms-flex: wrap;
+      flex: wrap;
   min-height: 100vh;
   margin: 0; }
 
@@ -864,9 +866,26 @@ object {
   display: none; }
 
 .home-hero {
+  width: 1284px;
+  height: 100vh;
+  padding-right: none;
+  -ms-flex-pack: center;
+      justify-content: center;
   background: url(/inhabitent/wp-content/uploads/2017/02/home-hero.jpg) no-repeat center bottom;
-  background-size: cover, cover;
-  width: 100%; }
+  background-size: cover, cover; }
+
+.logo-home {
+  height: 275px;
+  width: 275px;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center; }
+
+.recent-posts {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: row;
+      flex-direction: row; }
 
 .login h1 a {
   height: auto; }

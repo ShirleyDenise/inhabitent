@@ -26,3 +26,31 @@ $font__code: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
 $font__pre: "Courier 10 Pitch", Courier, monospace;
 $font__line-height-body: 1.5;
 $font__line-height-pre: 1.6;
+
+// Variables Inhabitent-------------------------------------------------------
+
+// Structure
+
+$fixed_width: 1120px;
+$spacing_unit: 1.5rem;
+$solid_boder: 1px solid #e1e1e1;
+$dashed_border: 1px dashed #c8c8c8;
+
+//Typography
+
+$base_fontsize: 16px;
+$base_fontcolor: #404040;
+$base_lineheight: 1.75;
+$main_fontfamily: 'Merriweather';
+$accent_fontfamily: 'Novento-Sans-Web';
+
+
+//Colours
+
+$background_color: #ffffff;
+$green_brand: #248A83;
+$purple_brand: #2f1339;
+$orange_brand: #d99054;
+$yellow_brand: #f0e4d1;
+$lightgrey_brand: #a1a1a1;
+$mediumgrey_brand: #808080;

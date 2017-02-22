@@ -9,8 +9,8 @@ get_header(); ?>
 
 
 
-    <div id="primary" class="content-area">
-        <main id="main" class="site-main" role="main">
+    <div id="primary" class="content-area-about">
+        <main id="main" class="site-main-about" role="main">
 
             <h2>Our Team</h2>
             <?php echo CFS()->get( 'about_our_team' ); ?>

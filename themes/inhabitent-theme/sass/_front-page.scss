@@ -1,0 +1,27 @@
+.home {
+    .page-title{
+        display: none;
+    }
+    
+}
+
+.home-hero {
+    width: 1284px;
+    height: 100vh;
+    padding-right: none;
+    justify-content: center;
+    background: url(/inhabitent/wp-content/uploads/2017/02/home-hero.jpg) no-repeat center bottom;
+    background-size: cover, cover;
+    
+    }
+
+.logo-home {
+        height: 275px; 
+        width: 275px;
+        align-self: center;
+    }
+
+.recent-posts {
+    display: flex;
+    flex-direction: row;
+}
