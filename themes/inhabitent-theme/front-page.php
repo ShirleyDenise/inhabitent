@@ -12,17 +12,18 @@ get_header(); ?>
 
     <div id="primary" class="content-area-home">
         <main id="main" class="site-main" role="main">
-            
+            <h2>Inhabitent Journal</h2>
             <?php
                 global $post;
                 $args = array( 'posts_per_page' => 3 );
                 $lastposts = get_posts( $args );
                 foreach ( $lastposts as $post ) :
                 setup_postdata( $post ); ?>
-                    <?php the_post_thumbnail( 'medium' ); ?>
-                    <?php red_starter_posted_on(); ?> / <?php comments_number( '0 Comments', '1 Comment', '% Comments' ); ?> 
-                    <h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
-                    
+                <div class="recent-posts">
+                    <div class ="post-image"><?php the_post_thumbnail( 'medium' ); ?></div>
+                    <div class ="post-comments"><?php red_starter_posted_on(); ?> / <?php comments_number( '0 Comments', '1 Comment', '% Comments' ); ?></div>
+                    <div class="post-title"><h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2></div>
+                </div>   
                     
                 <?php endforeach; 
                 wp_reset_postdata(); ?>

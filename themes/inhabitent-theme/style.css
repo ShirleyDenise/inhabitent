@@ -852,9 +852,21 @@ object {
 # Page Templates
 --------------------------------------------------------------*/
 /* Front page */
-.site-header {
-  background: url(/inhabitent/wp-content/uploads/2017/02/about-hero.jpg) no-repeat center bottom;
-  background-size: cover, cover; }
+#page {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  min-height: 100vh;
+  margin: 0; }
+
+.home .page-title {
+  display: none; }
+
+.home-hero {
+  background: url(/inhabitent/wp-content/uploads/2017/02/home-hero.jpg) no-repeat center bottom;
+  background-size: cover, cover;
+  width: 100%; }
 
 .login h1 a {
   height: auto; }
