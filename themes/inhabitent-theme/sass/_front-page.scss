@@ -2,6 +2,17 @@
     .page-title{
         display: none;
     }
+    h2 {
+        text-transform: uppercase;
+        font-size: 2.4rem;
+        font-weight: 400;
+        margin-bottom: 3.75rem;
+        text-align: center;
+    }
+    .site-content{
+        padding-right: 0;
+        padding-left: 0;
+    }
     
 }
 
@@ -24,4 +35,18 @@
 .recent-posts {
     display: flex;
     flex-direction: row;
+    ul {
+       list-style: none;
+    }
+    
+}
+
+.post-title {
+    a {
+      color: $green_brand;
+      text-decoration: none;
+      text-transform: uppercase;
+
+    }
+   
 }

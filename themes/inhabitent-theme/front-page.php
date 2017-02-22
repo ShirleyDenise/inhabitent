@@ -21,11 +21,13 @@ get_header(); ?>
                     $lastposts = get_posts( $args );
                     foreach ( $lastposts as $post ) :
                     setup_postdata( $post ); ?>
-                    
-                        <div class ="post-image"><?php the_post_thumbnail( 'medium' ); ?></div>
-                        <div class ="post-comments"><?php red_starter_posted_on(); ?> / <?php comments_number( '0 Comments', '1 Comment', '% Comments' ); ?></div>
-                        <div class="post-title"><h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2></div>
-                    
+                    <ul>
+                        <li>
+                            <div class ="post-image"><?php the_post_thumbnail( 'medium' ); ?></div>
+                            <div class ="post-comments"><?php red_starter_posted_on(); ?> / <?php comments_number( '0 Comments', '1 Comment', '% Comments' ); ?></div>
+                            <div class="post-title"><h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3></div>
+                        </li>
+                    </ul>
                         
                     <?php endforeach; 
                     wp_reset_postdata(); ?>

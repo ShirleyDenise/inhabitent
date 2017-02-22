@@ -865,6 +865,17 @@ object {
 .home .page-title {
   display: none; }
 
+.home h2 {
+  text-transform: uppercase;
+  font-size: 2.4rem;
+  font-weight: 400;
+  margin-bottom: 3.75rem;
+  text-align: center; }
+
+.home .site-content {
+  padding-right: 0;
+  padding-left: 0; }
+
 .home-hero {
   width: 1284px;
   height: 100vh;
@@ -886,6 +897,13 @@ object {
   display: flex;
   -ms-flex-direction: row;
       flex-direction: row; }
+  .recent-posts ul {
+    list-style: none; }
+
+.post-title a {
+  color: #248A83;
+  text-decoration: none;
+  text-transform: uppercase; }
 
 .login h1 a {
   height: auto; }
