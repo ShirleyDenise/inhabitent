@@ -22,13 +22,17 @@ get_header(); ?>
 				<?php
 				$terms = get_terms( array(
 				'taxonomy' => 'product_type',
+				'order' => 'ASC',
+				'posts_per_page' => 16,
 				'hide_empty' => false,
 					));
+					
 				?>
+				
 
 				<?php	foreach ( $terms as $term ): ?>
 
-						<h3 class="product_sub_catagories"><a href="<?php echo get_term_link($term, '$product_type') ?>"><?php	echo	$term->name; ?></a></h3>
+						<h3 class="product_sub_catagories"><a href="<?php echo get_term_link($term, '$product_type') ?>"><?php	echo	$term->slug; ?></a></h3>
 						
 						<?php endforeach; wp_reset_postdata(); ?>
 				

@@ -62,4 +62,13 @@ function inhabitent_about_css() {
 
 	add_action( 'wp_enqueue_scripts', 'inhabitent_about_css' );
 
-
+	function blog_change_sort( $query ) {
+ 
+   
+   if( is_post_type_archive('products') ) {
+       $query->set('posts_per_page', 16);
+       $query->set('orderby', 'title');
+       $query->set('order', 'ASC');
+   }
+}
+add_action('pre_get_posts', 'blog_change_sort');

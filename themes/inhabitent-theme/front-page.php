@@ -13,6 +13,34 @@ get_header(); ?>
             <section class="home-hero">
                 <img class="logo-home" src="<?php echo get_template_directory_uri(); ?>/images/inhabitent-logo-full.svg" alt="Image of Inhabitent logo" />
             </section>
+             
+             <div class="shop-stuff">
+                <h2>Shop Stuff</h2>
+                
+                <div class="product-type">
+                    <?php
+                    $terms = get_terms( array(
+                    'taxonomy' => 'product_type',
+                    'oderby' => 'name',
+                    'hide_empty' => false) );
+                    ?>
+
+                    <?php	foreach ( $terms as $term ): ?>
+                    
+
+                            <h3 class="product_sub_catagories"></h3>
+                            <img src="<?php echo get_template_directory_uri();?>/images/product-type-icons/<?php echo $term->slug; ?>.svg" alt="">
+                            <a href="<?php echo get_term_link($term, '$product_type') ?>">
+                            <?php	echo	$term->name; ?>
+                            </a>
+                            
+
+                            <p> <?php echo $term->description; ?> </p>
+                            
+                            <?php endforeach; wp_reset_postdata(); ?>
+                    </div>
+             </div>
+
             <h2>Inhabitent Journal</h2>
             <div class="recent-posts">
                 <?php
