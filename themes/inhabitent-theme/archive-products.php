@@ -15,35 +15,22 @@ get_header(); ?>
 
 			<header class="products-header">
 				<h1 class="page-title">Shop Stuff</h1>
-				<ul class="product-type-li">
-					<li>
-						<p>
-							<a href="">Do</a>
-						</p>
-					</li>
-					<li>
-						<p>
-							<a href="">Eat</a>
-						</p>
-
-					</li>
-					<li>
-						<p>
-							<a href="">Sleep</a>
-						</p>
-
-					</li>
-					<li>
-						<p>
-							<a href="">Wear</a>
-						</p>
-
-					</li>
-				</ul>
-				<!--<?php
+				<?php
 					the_archive_title( '<h1 class="page-title">', '</h1>' );
 					the_archive_description( '<div class="taxonomy-description">', '</div>' );
-				?>-->
+				?>
+				<?php
+				$terms = get_terms( array(
+				'taxonomy' => 'product_type',
+				'hide_empty' => false,
+					));
+				?>
+
+				<?php	foreach ( $terms as $term ): ?>
+
+						<h3 class="product_sub_catagories"><a href="<?php echo get_term_link($term, '$product_type') ?>"><?php	echo	$term->name; ?></a></h3>
+						
+						<?php endforeach; wp_reset_postdata(); ?>
 				
 			</header><!-- .page-header -->
 
