@@ -921,5 +921,8 @@ object {
     background-color: #248A83;
     color: white; }
 
+.about .site-content {
+  padding-left: 0; }
+
 .login h1 a {
   height: auto; }
