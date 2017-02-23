@@ -23,9 +23,14 @@ get_header(); ?>
                     setup_postdata( $post ); ?>
                     <ul>
                         <li>
-                            <div class ="post-image"><?php the_post_thumbnail( 'medium' ); ?></div>
-                            <div class ="post-comments"><?php red_starter_posted_on(); ?> / <?php comments_number( '0 Comments', '1 Comment', '% Comments' ); ?></div>
-                            <div class="post-title"><h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3></div>
+                            <div class="wrapper-image">
+                                 <div class ="post-image"><?php the_post_thumbnail( 'medium' ); ?></div>
+                            </div>
+                            <div class="wrapper-post">
+                                  <div class ="post-comments"><?php red_starter_posted_on(); ?> / <?php comments_number( '0 Comments', '1 Comment', '% Comments' ); ?></div>
+                                  <div class="post-title"><h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3></div>
+                                  <a class="black-button" href="<?php the_permalink(); ?>">Read Entry</a>
+                            </div>
                         </li>
                     </ul>
                         

@@ -10,26 +10,29 @@
         text-align: center;
     }
     .site-content{
-        padding-right: 0;
         padding-left: 0;
     }
     
 }
 
 .home-hero {
-    width: 1284px;
+    width: 100%;
     height: 100vh;
     padding-right: none;
     justify-content: center;
-    background: url(/inhabitent/wp-content/uploads/2017/02/home-hero.jpg) no-repeat center bottom;
+    background: linear-gradient(180deg,rgba(0,0,0,.4) 0,rgba(0,0,0,.4)),#969696 url(/inhabitent/wp-content/uploads/2017/02/home-hero.jpg) no-repeat top;
     background-size: cover, cover;
     
     }
 
 .logo-home {
+    img {
         height: 275px; 
         width: 275px;
-        align-self: center;
+        position: center;
+    }
+        
+        
     }
 
 .recent-posts {
@@ -37,7 +40,19 @@
     flex-direction: row;
     ul {
        list-style: none;
+       margin: 0;
     }
+
+.wrapper-image {
+    
+    max-height: 250px;
+}  
+
+}
+
+.post-image {
+    max-height: 250px;
+        
     
 }
 
@@ -49,4 +64,22 @@
 
     }
    
+}
+
+.black-button {
+    color: black;
+    border: 1px solid #000;
+	padding: 0.75rem 1.5rem;
+	width: 9.5rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    &:visited{
+        color: black;
+    }
+    &:hover{
+        background-color: $green_brand;
+        color: white;
+
+    }
+    
 }
