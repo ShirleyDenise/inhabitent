@@ -42,7 +42,7 @@ get_header(); ?>
 						
 						<?php endforeach; wp_reset_postdata(); ?>
 			</div>	
-			
+
 			</header><!-- .page-header -->
 			<div class="products-wrapper">
 				<?php /* Start the Loop */ ?>
@@ -52,8 +52,11 @@ get_header(); ?>
 
 				
 					<div class="product-item"><div class ="post-image"><?php the_post_thumbnail( 'medium' ); ?></div>
-					<div class="post-title"><h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3></div>    
-					<p><?php echo CFS()->get('product_price'); ?></p></div>
+					<div class="product-info">
+						<div class="post-title"><h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3></div>    
+						<p><?php echo CFS()->get('product_price'); ?></p>
+					</div>
+					</div>
 				
 
 				<?php endwhile; ?>

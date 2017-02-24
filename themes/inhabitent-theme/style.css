@@ -993,6 +993,9 @@ object {
 .product-item {
   max-width: 23%; }
 
+.post-image img {
+  height: auto; }
+
 .login h1 a {
   height: auto; }
 
