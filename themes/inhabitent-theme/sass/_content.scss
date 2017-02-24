@@ -55,20 +55,19 @@
 
 // CONTENT
 
-.site-content {
+.blog {
 	display: flex;
-	justify-content: column;
-	padding-top: 3rem;
-	padding-left: 5rem;
+	
+	
 }
 
 .content-area-blog {
 	width: 68%;
 	border-right: 1px solid #e1e1e1;
-	padding-top: 3rem;
-	padding-right: 3.5rem;
-	padding-left: 5rem;
-
+	padding: 6rem 3.5rem;
+	
+	
+	
 }
 
 .entry-header {

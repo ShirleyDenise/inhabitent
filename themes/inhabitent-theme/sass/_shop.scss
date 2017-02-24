@@ -1,0 +1,32 @@
+.products-content-area{
+     padding: 5rem;
+    //  display: flex;
+     
+}
+
+
+
+.products-header{
+    text-align: center;
+    text-transform: uppercase;
+    
+}
+
+.product_sub_catagories{
+    display: inline-block;
+    a{
+        color: #248A83;
+        text-decoration: none;
+		text-transform: uppercase;
+    }
+}
+
+.products-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.product-item{
+    max-width: 23%;
+}

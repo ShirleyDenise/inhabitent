@@ -10,24 +10,29 @@ get_header(); ?>
 	<div id="primary" class="products-content-area">
 		<main id="main" class="products-site-main" role="main">
 		
+		<div class="Shop-stuff">
+			<?php if ( have_posts() ) : ?>
 
-		<?php if ( have_posts() ) : ?>
+				<header class="products-header">
+					<h1 class="page-title">Shop Stuff</h1>
+					<div class="product-categories">
+						<?php
+							the_archive_description( '<div class="taxonomy-description">', '</div>' );
+						?>
+					</div>
 
-			<header class="products-header">
-				<h1 class="page-title">Shop Stuff</h1>
-				<?php
-					the_archive_title( '<h1 class="page-title">', '</h1>' );
-					the_archive_description( '<div class="taxonomy-description">', '</div>' );
-				?>
-				<?php
-				$terms = get_terms( array(
-				'taxonomy' => 'product_type',
-				'order' => 'ASC',
-				'posts_per_page' => 16,
-				'hide_empty' => false,
-					));
 					
-				?>
+						<?php
+						$terms = get_terms( array(
+						'taxonomy' => 'product_type',
+						'order' => 'ASC',
+						'posts_per_page' => 16,
+						'hide_empty' => false,
+							));
+							
+						?>
+					
+			</div>
 				
 
 				<?php	foreach ( $terms as $term ): ?>
@@ -37,23 +42,29 @@ get_header(); ?>
 						<?php endforeach; wp_reset_postdata(); ?>
 				
 			</header><!-- .page-header -->
+			<div class="products-wrapper">
+				<?php /* Start the Loop */ ?>
+				
 
-			<?php /* Start the Loop */ ?>
-			<?php while ( have_posts() ) : the_post(); ?>
+				<?php while ( have_posts() ) : the_post(); ?>
 
-				<div class ="post-image"><?php the_post_thumbnail( 'medium' ); ?></div>
-                <div class="post-title"><h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3></div>    
-				<p><?php echo CFS()->get('product_price'); ?></p>
+				
+					<div class="product-item"><div class ="post-image"><?php the_post_thumbnail( 'medium' ); ?></div>
+					<div class="post-title"><h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3></div>    
+					<p><?php echo CFS()->get('product_price'); ?></p></div>
+				
 
-			<?php endwhile; ?>
+				<?php endwhile; ?>
+			
 
-			<?php the_posts_navigation(); ?>
+				<?php the_posts_navigation(); ?>
 
-		<?php else : ?>
+			<?php else : ?>
 
-			<?php get_template_part( 'template-parts/content', 'none' ); ?>
+				<?php get_template_part( 'template-parts/content', 'none' ); ?>
 
-		<?php endif; ?>
+			<?php endif; ?>
+		</div>
 
 		</main><!-- #main -->
 	</div><!-- #primary -->
