@@ -705,7 +705,8 @@ a {
   width: 68%;
   border-right: 1px solid #e1e1e1;
   padding-top: 3rem;
-  padding-right: 3.5rem; }
+  padding-right: 3.5rem;
+  padding-left: 5rem; }
 
 .entry-header {
   position: relative; }
@@ -724,6 +725,8 @@ a {
     color: white;
     text-decoration: none;
     text-transform: uppercase; }
+    .entry-title a:hover {
+      color: peachpuff; }
 
 .entry-meta {
   background-color: #248a83;
@@ -734,11 +737,19 @@ a {
   right: 0;
   text-transform: uppercase; }
 
-.read-more-button {
+.read-more {
   border: 1px solid #000;
   color: #000;
   padding: 0.75rem 1.5rem;
-  width: 9.5rem; }
+  text-decoration: none;
+  text-transform: uppercase; }
+  .read-more a {
+    color: #000; }
+  .read-more:visited {
+    color: black; }
+  .read-more:hover {
+    background-color: #248A83;
+    color: white; }
 
 .site-footer {
   display: -ms-flexbox;
@@ -893,12 +904,8 @@ object {
   height: 100vh;
   -ms-flex-pack: center;
       justify-content: center;
-  background: linear-gradient(180deg, rgba(0, 0, 0, 0.4) 0, rgba(0, 0, 0, 0.4)), #969696 url(/inhabitent/wp-content/uploads/2017/02/home-hero.jpg) no-repeat top;
-  background-size: cover, cover; }
-
-.logo-home img {
-  height: 275px;
-  width: 275px; }
+  background: url("../../images/inhabitent-logo-full.svg") no-repeat center, linear-gradient(180deg, rgba(0, 0, 0, 0.4) 0, rgba(0, 0, 0, 0.4)), #969696 url(/inhabitent/wp-content/uploads/2017/02/home-hero.jpg) no-repeat top;
+  background-size: 280px, cover, 100%; }
 
 .recent-posts {
   display: -ms-flexbox;
@@ -932,8 +939,25 @@ object {
     background-color: #248A83;
     color: white; }
 
-.about .site-content {
+.site-content {
   padding-left: 0; }
+
+.page-header {
+  height: 100vh; }
+
+.about-title {
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-align: center; }
+
+.text-about {
+  margin: 3rem 15rem; }
+  .text-about h2 {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 2.1rem;
+    margin-bottom: 0; }
 
 .login h1 a {
   height: auto; }
