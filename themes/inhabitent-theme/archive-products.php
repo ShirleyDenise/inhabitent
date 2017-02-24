@@ -15,11 +15,11 @@ get_header(); ?>
 
 				<header class="products-header">
 					<h1 class="page-title">Shop Stuff</h1>
-					<div class="product-categories">
+					
 						<?php
 							the_archive_description( '<div class="taxonomy-description">', '</div>' );
 						?>
-					</div>
+					
 
 					
 						<?php
@@ -34,13 +34,15 @@ get_header(); ?>
 					
 			</div>
 				
-
+			<div class="product-categories">
 				<?php	foreach ( $terms as $term ): ?>
-
+					
 						<h3 class="product_sub_catagories"><a href="<?php echo get_term_link($term, '$product_type') ?>"><?php	echo	$term->slug; ?></a></h3>
+					
 						
 						<?php endforeach; wp_reset_postdata(); ?>
-				
+			</div>	
+			
 			</header><!-- .page-header -->
 			<div class="products-wrapper">
 				<?php /* Start the Loop */ ?>
