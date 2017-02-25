@@ -867,19 +867,6 @@ object {
   min-height: 100vh;
   margin: 0; }
 
-.product-type {
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-direction: row;
-      flex-direction: row;
-  -ms-flex-pack: center;
-      justify-content: center; }
-  .product-type h3 {
-    padding-right: 1rem;
-    border: 1px solid #e1e1e1; }
-    .product-type h3 a {
-      text-decoration: none; }
-
 .home .page-title {
   display: none; }
 
@@ -932,6 +919,56 @@ object {
   .black-button:hover {
     background-color: #248A83;
     color: white; }
+
+.shop-stuff {
+  padding: 3rem 3rem 2rem 5rem; }
+
+.product-type {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: row;
+      flex-direction: row;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+  text-align: center; }
+  .product-type h3 {
+    padding-right: 1rem;
+    border: 1px solid #e1e1e1; }
+    .product-type h3 a {
+      text-decoration: none; }
+
+.product-type-wrapper {
+  border: 1px solid #e1e1e1;
+  border-top-width: 5px;
+  margin-right: 1.5rem;
+  height: 260px; }
+  .product-type-wrapper img {
+    width: 90px;
+    height: 90px;
+    -ms-flex-pack: center;
+        justify-content: center;
+    padding-top: 1rem; }
+  .product-type-wrapper p {
+    padding-left: 1rem;
+    padding-right: 1rem; }
+  .product-type-wrapper h3 {
+    display: none; }
+
+.stuff-btn {
+  background: #248A83;
+  padding: 0.75rem 1.2rem;
+  border: none;
+  border-radius: 0;
+  color: #fff;
+  font-size: .9rem;
+  line-height: 1;
+  text-transform: uppercase;
+  text-decoration: none; }
+  .stuff-btn:visited {
+    color: white; }
+  .stuff-btn:hover {
+    background: #19625d;
+    color: #fff; }
 
 .site-content {
   padding-left: 0; }

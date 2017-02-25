@@ -30,12 +30,13 @@ get_header(); ?>
                         <div class="product-type-wrapper">
                             <h3 class="product_sub_catagories"></h3>
                             <img src="<?php echo get_template_directory_uri();?>/images/product-type-icons/<?php echo $term->slug; ?>.svg" alt="">
-                            <a href="<?php echo get_term_link($term, '$product_type') ?>">
+                            <p> <?php echo $term->description; ?> </p>
+                            <a class="stuff-btn" href="<?php echo get_term_link($term, '$product_type') ?>">
                             <?php	echo	$term->name; ?>
                             </a>
                             
 
-                            <p> <?php echo $term->description; ?> </p>
+                            
                         </div>
                             <?php endforeach; wp_reset_postdata(); ?>
                     </div>
