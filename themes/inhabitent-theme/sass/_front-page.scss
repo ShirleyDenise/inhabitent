@@ -26,57 +26,6 @@
     
     
     }
-        
-    
-
-.recent-posts {
-    display: flex;
-    flex-direction: row;
-    ul {
-       list-style: none;
-       margin: 0;
-    }
-
-.wrapper-image {
-    
-    max-height: 250px;
-}  
-
-}
-
-.post-image {
-    max-height: 250px;
-        
-    
-}
-
-.post-title {
-    a {
-      color: $green_brand;
-      text-decoration: none;
-      text-transform: uppercase;
-
-    }
-   
-}
-
-.black-button {
-    color: black;
-    border: 1px solid #000;
-	padding: 0.75rem 1.5rem;
-	width: 9.5rem;
-    text-decoration: none;
-    text-transform: uppercase;
-    &:visited{
-        color: black;
-    }
-    &:hover{
-        background-color: $green_brand;
-        color: white;
-
-    }
-    
-}
 
 // Shop Stuff
 
@@ -139,4 +88,65 @@
     background: #19625d;
     color: #fff;
     }
+}
+
+// Recent Posts
+
+.recent-posts {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    ul {
+       width: 380px;
+       height: 380px;
+       padding: 0;
+       list-style: none;
+       margin: 0;
+       border: $solid_boder;
+    }
+
+
+.wrapper-image {
+    width: 400px;
+    max-height: 250px;
+}  
+
+}
+
+.post-image {
+    max-height: 250px;
+        
+    
+}
+
+// .wrapper-post{
+    
+// }
+
+.post-title {
+    a {
+      color: $green_brand;
+      text-decoration: none;
+      text-transform: uppercase;
+
+    }
+   
+}
+
+.black-button {
+    color: black;
+    border: 1px solid #000;
+	padding: 0.75rem 1.5rem;
+	width: 9.5rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    &:visited{
+        color: black;
+    }
+    &:hover{
+        background-color: $green_brand;
+        color: white;
+
+    }
+    
 }

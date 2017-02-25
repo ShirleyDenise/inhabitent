@@ -888,38 +888,6 @@ object {
   background: url("../../images/inhabitent-logo-full.svg") no-repeat center, linear-gradient(180deg, rgba(0, 0, 0, 0.4) 0, rgba(0, 0, 0, 0.4)), #969696 url(/inhabitent/wp-content/uploads/2017/02/home-hero.jpg) no-repeat top;
   background-size: 280px, cover, 100%; }
 
-.recent-posts {
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-direction: row;
-      flex-direction: row; }
-  .recent-posts ul {
-    list-style: none;
-    margin: 0; }
-  .recent-posts .wrapper-image {
-    max-height: 250px; }
-
-.post-image {
-  max-height: 250px; }
-
-.post-title a {
-  color: #248A83;
-  text-decoration: none;
-  text-transform: uppercase; }
-
-.black-button {
-  color: black;
-  border: 1px solid #000;
-  padding: 0.75rem 1.5rem;
-  width: 9.5rem;
-  text-decoration: none;
-  text-transform: uppercase; }
-  .black-button:visited {
-    color: black; }
-  .black-button:hover {
-    background-color: #248A83;
-    color: white; }
-
 .shop-stuff {
   padding: 3rem 3rem 2rem 5rem; }
 
@@ -969,6 +937,45 @@ object {
   .stuff-btn:hover {
     background: #19625d;
     color: #fff; }
+
+.recent-posts {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: row;
+      flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around; }
+  .recent-posts ul {
+    width: 380px;
+    height: 380px;
+    padding: 0;
+    list-style: none;
+    margin: 0;
+    border: 1px solid #e1e1e1; }
+  .recent-posts .wrapper-image {
+    width: 400px;
+    max-height: 250px; }
+
+.post-image {
+  max-height: 250px; }
+
+.post-title a {
+  color: #248A83;
+  text-decoration: none;
+  text-transform: uppercase; }
+
+.black-button {
+  color: black;
+  border: 1px solid #000;
+  padding: 0.75rem 1.5rem;
+  width: 9.5rem;
+  text-decoration: none;
+  text-transform: uppercase; }
+  .black-button:visited {
+    color: black; }
+  .black-button:hover {
+    background-color: #248A83;
+    color: white; }
 
 .site-content {
   padding-left: 0; }
