@@ -66,3 +66,22 @@ mark, ins {
 big {
 	font-size: 125%;
 }
+
+
+// Inhabitent style
+
+body, .BodyA,  {
+	font-family: $main_fontfamily, serif;
+	font-size: $base_fontsize;
+    line-height: $base_lineheight;
+}
+
+h1, h2, h4, h5, h6, .stuff-btn, .black-button, .read-more, .main-navigation, .copyright {
+	font-family: $accent_fontfamily, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6{
+	letter-spacing: 2px;
+}
+
+
