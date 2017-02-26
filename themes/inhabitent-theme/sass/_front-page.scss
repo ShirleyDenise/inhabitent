@@ -30,6 +30,11 @@
 
 // Shop Stuff
 
+*, :after, :before {
+    box-sizing: inherit;
+}
+
+
 .shop-stuff{
     padding: 3rem 3rem 2rem 5rem;
   
@@ -172,5 +177,82 @@ h3.title{
         color: white;
 
     }
+    
+}
+
+// Latest Adv
+
+.adv-grid{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    height: 500px;
+
+}
+
+.story-details{
+    padding: 3rem 1.5rem;
+}
+
+.wrapper-story-1{
+    background-image: url('../../images/canoe-girl.jpg');
+    background-size: cover;
+    margin: 0.5rem;
+    order: 1;
+    width: 48%;
+    height: 88%;
+}
+
+.wrapper-story-2{
+    background-image: url('../../images/beach-bonfire.jpg');
+    background-size: cover;
+    margin: 0.5rem;
+    order: 2;
+    width: 48%;
+    height: 40%;
+}
+
+.wrapper-story-3{
+    background-image: url('../../images/mountain-hikers.jpg');
+    background-size: cover;
+    margin: 0.5rem;
+    order: 3;
+    width: 23%;
+    height: 40%;
+}
+
+.wrapper-story-4{
+    background-image: url('../../images/night-sky.jpg');
+    background-size: cover;
+    margin: 0.5rem;
+    order: 4;
+    width: 23%;
+    height: 40%;
+}
+
+.story-details{
+    h3{
+        color: white;
+    }
+}
+
+.read-more-adv {
+    border: 1px solid white;
+    color: white;
+    padding: 0.7rem 1rem;
+	width: 9rem;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    &:hover{
+        background-color: $green_brand;
+        color: white;
+
+    }
+}
+
+.more-adv{
+    padding-left: 5rem;
+    padding-right: 5rem;
     
 }

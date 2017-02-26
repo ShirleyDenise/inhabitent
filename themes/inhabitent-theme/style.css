@@ -325,7 +325,7 @@ body, .BodyA {
   font-size: 16px;
   line-height: 1.75; }
 
-h1, h2, h4, h5, h6, .stuff-btn, .black-button, .read-more, .main-navigation, .copyright {
+h1, h2, h4, h5, h6, .stuff-btn, .black-button, .read-more, .read-more-adv, .main-navigation, .copyright {
   font-family: "novecento", sans-serif; }
 
 h1, h2, h3, h4, h5, h6 {
@@ -912,6 +912,9 @@ object {
   background: url("../../images/inhabitent-logo-full.svg") no-repeat center, linear-gradient(180deg, rgba(0, 0, 0, 0.4) 0, rgba(0, 0, 0, 0.4)), #969696 url(/inhabitent/wp-content/uploads/2017/02/home-hero.jpg) no-repeat top;
   background-size: 280px, cover, 100%; }
 
+*, :after, :before {
+  box-sizing: inherit; }
+
 .shop-stuff {
   padding: 3rem 3rem 2rem 5rem; }
 
@@ -1018,6 +1021,72 @@ h3.title {
   .black-button:hover {
     background-color: #248A83;
     color: white; }
+
+.adv-grid {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding-left: 4rem;
+  padding-right: 4rem;
+  height: 500px; }
+
+.story-details {
+  padding: 3rem 1.5rem; }
+
+.wrapper-story-1 {
+  background-image: url("../../images/canoe-girl.jpg");
+  background-size: cover;
+  margin: 0.5rem;
+  -ms-flex-order: 1;
+      order: 1;
+  width: 48%;
+  height: 88%; }
+
+.wrapper-story-2 {
+  background-image: url("../../images/beach-bonfire.jpg");
+  background-size: cover;
+  margin: 0.5rem;
+  -ms-flex-order: 2;
+      order: 2;
+  width: 48%;
+  height: 40%; }
+
+.wrapper-story-3 {
+  background-image: url("../../images/mountain-hikers.jpg");
+  background-size: cover;
+  margin: 0.5rem;
+  -ms-flex-order: 3;
+      order: 3;
+  width: 23%;
+  height: 40%; }
+
+.wrapper-story-4 {
+  background-image: url("../../images/night-sky.jpg");
+  background-size: cover;
+  margin: 0.5rem;
+  -ms-flex-order: 4;
+      order: 4;
+  width: 23%;
+  height: 40%; }
+
+.story-details h3 {
+  color: white; }
+
+.read-more-adv {
+  border: 1px solid white;
+  color: white;
+  padding: 0.7rem 1rem;
+  width: 9rem;
+  text-transform: uppercase;
+  font-size: 0.9rem; }
+  .read-more-adv:hover {
+    background-color: #248A83;
+    color: white; }
+
+.more-adv {
+  padding-left: 5rem;
+  padding-right: 5rem; }
 
 .site-content {
   padding-left: 0; }

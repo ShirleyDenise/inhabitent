@@ -68,7 +68,45 @@ get_header(); ?>
                 </div> 
 
                 <div class="latest-adventures">
-                    <h2>Latest adventures</h2>
+                    <h2 class="title-adv">Latest adventures</h2>
+
+                    <div class="adv-grid">
+                        <div class="wrapper-story-1">
+                            <div class="story-details">
+                                <h3 class="title">
+                                    Getting Back to Nature in a Canoe
+                                </h3>
+                                <a class="read-more-adv">Read More</a>
+                            </div>
+                        </div>
+                        <div class="wrapper-story-2">
+                            <div class="story-details">
+                                <h3 class="title">
+                                    A Night with Friends at the Beach
+                                </h3>
+                                <a class="read-more-adv">Read More</a>
+                            </div>
+                        </div>
+                        <div class="wrapper-story-3">
+                            <div class="story-details">
+                                <h3 class="title">
+                                    Taking in the View at Big Mountain
+                                </h3>
+                                <a class="read-more-adv">Read More</a>
+                            </div>
+                        </div>
+                        <div class="wrapper-story-4">
+                            <div class="story-details">
+                                <h3 class="title">
+                                    Star-Gazing at the Night Sky
+                                </h3>
+                                <a class="read-more-adv">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="more-adv-btn">
+                        <a class="more-adv">More Adventures</a>
+                    </div>
                 </div>
           
 
