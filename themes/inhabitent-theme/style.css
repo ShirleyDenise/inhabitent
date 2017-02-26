@@ -1012,7 +1012,8 @@ h3.title {
   text-decoration: none;
   text-transform: uppercase;
   font-size: 0.9rem;
-  font-weight: normal; }
+  font-weight: normal;
+  cursor: pointer; }
   .black-button:visited {
     color: black; }
   .black-button:hover {
@@ -1203,7 +1204,33 @@ h3.title {
   line-height: 1.75; }
 
 p.single-price {
-  size: 1.5rem; }
+  size: 1.8rem;
+  font-family: "novecento", sans-serif; }
+
+.social-btn {
+  display: -ms-flexbox;
+  display: flex; }
+
+.black-button-social {
+  color: black;
+  border: 1px solid #000;
+  padding: 0.3rem 1.2rem;
+  width: auto;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: normal;
+  cursor: pointer;
+  margin-right: 0.5rem; }
+  .black-button-social:visited {
+    color: black; }
+  .black-button-social:hover {
+    background-color: #248A83;
+    color: white; }
+  .black-button-social a {
+    font-size: 0.7rem; }
+  .black-button-social .action-social {
+    padding-left: 0.6rem;
+    font-family: "novecento", sans-serif; }
 
 .login h1 a {
   height: auto; }

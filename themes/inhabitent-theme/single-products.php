@@ -23,6 +23,17 @@ get_header(); ?>
 							<?php the_title( '<h1 class="product-title">', '</h1>' ); ?>
 							<p class="single-price"><?php echo CFS()->get('product_price'); ?></p>
 		      		<div class="single-content"><?php the_content(); ?></div>
+					<div class="social-btn">
+						<div type="button" class="black-button-social">
+							<i class="fa fa-facebook"><span class="action-social">Like</span></i>
+						</div>
+						<div type="button" class="black-button-social">
+							<i class="fa fa-twitter"><span class="action-social">Tweet</span></i>
+						</div>
+						<div type="button" class="black-button-social">
+							<i class="fa fa-pinterest"><span class="action-social">Pin</span></i>
+						</div>
+					</div>
 		      	</div><!-- .entry-content -->
 		      </article><!-- #post-## -->
 

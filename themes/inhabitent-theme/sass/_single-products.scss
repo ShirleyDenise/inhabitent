@@ -33,7 +33,42 @@
     }
 
 p.single-price{
-            size: 1.5rem;
+            size: 1.8rem;
+            font-family: $accent_fontfamily, sans-serif;
             
         }
         
+// social buttons
+
+.social-btn{
+    display: flex;
+    
+}
+
+.black-button-social {
+    color: black;
+    border: 1px solid #000;
+	padding: 0.3rem 1.2rem;
+	width: auto;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: normal;
+    cursor: pointer;
+    margin-right: 0.5rem;
+    &:visited{
+        color: black;
+    }
+    &:hover{
+        background-color: $green_brand;
+        color: white;
+
+    }
+    a{
+        font-size: 0.7rem;
+    }
+    .action-social{
+        padding-left: 0.6rem;
+        font-family: $accent_fontfamily, sans-serif;
+    }
+    
+}
