@@ -24,6 +24,8 @@
     padding-right: 3rem;
     a{
         color: #248A83;
+        font-family: 'novecento',sans-serif;
+        font-weight: 400;
         text-decoration: none;
 		text-transform: uppercase;
     }
@@ -38,6 +40,7 @@
 
 .product-item{
     max-width: 23%;
+    margin-bottom: 1.3rem;
 }
 
 .post-image-shop{
@@ -55,20 +58,17 @@
     display: flex;
     justify-content: space-between;
     align-items: baseline;
+    padding: 0 1rem 2rem 1rem;
     height: 3rem;
     border: $solid_boder;
-    // content: "...........";
 }
 
 .post-title-shop{
-    a{
+    h3{
         text-decoration: none;
         color: black;
         letter-spacing: 0;
         font-size: 1rem;
         font-weight: 400;
-    }
-    p{
-        // margin-bottom: 0;
     }
 }

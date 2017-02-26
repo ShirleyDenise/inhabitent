@@ -1130,6 +1130,8 @@ h3.title {
   padding-right: 3rem; }
   .product_sub_catagories a {
     color: #248A83;
+    font-family: 'novecento',sans-serif;
+    font-weight: 400;
     text-decoration: none;
     text-transform: uppercase; }
 
@@ -1143,7 +1145,8 @@ h3.title {
   padding-top: 3rem; }
 
 .product-item {
-  max-width: 23%; }
+  max-width: 23%;
+  margin-bottom: 1.3rem; }
 
 .post-image-shop {
   padding-bottom: 0;
@@ -1161,10 +1164,11 @@ h3.title {
       justify-content: space-between;
   -ms-flex-align: baseline;
       align-items: baseline;
+  padding: 0 1rem 2rem 1rem;
   height: 3rem;
   border: 1px solid #e1e1e1; }
 
-.post-title-shop a {
+.post-title-shop h3 {
   text-decoration: none;
   color: black;
   letter-spacing: 0;
