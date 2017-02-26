@@ -945,6 +945,8 @@ object {
     padding-right: 0.5rem; }
   .product-type-wrapper h3 {
     display: none; }
+  .product-type-wrapper:hover {
+    border-color: #d99054; }
 
 .stuff-btn {
   background: #248A83;
