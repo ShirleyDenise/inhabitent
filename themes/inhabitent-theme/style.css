@@ -912,9 +912,6 @@ object {
   background: url("../../images/inhabitent-logo-full.svg") no-repeat center, linear-gradient(180deg, rgba(0, 0, 0, 0.4) 0, rgba(0, 0, 0, 0.4)), #969696 url(/inhabitent/wp-content/uploads/2017/02/home-hero.jpg) no-repeat top;
   background-size: 280px, cover, 100%; }
 
-*, :after, :before {
-  box-sizing: inherit; }
-
 .shop-stuff {
   padding: 3rem 3rem 2rem 5rem; }
 
@@ -1148,8 +1145,31 @@ h3.title {
 .product-item {
   max-width: 23%; }
 
-.post-image img {
-  height: auto; }
+.post-image-shop {
+  padding-bottom: 0;
+  height: 250px; }
+  .post-image-shop img {
+    border: 1px solid #e1e1e1;
+    border-bottom-width: 5px;
+    height: 250px;
+    width: auto; }
+
+.product-info {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+  -ms-flex-align: baseline;
+      align-items: baseline;
+  height: 3rem;
+  border: 1px solid #e1e1e1; }
+
+.post-title-shop a {
+  text-decoration: none;
+  color: black;
+  letter-spacing: 0;
+  font-size: 1rem;
+  font-weight: 400; }
 
 .login h1 a {
   height: auto; }

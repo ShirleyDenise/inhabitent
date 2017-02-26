@@ -51,9 +51,9 @@ get_header(); ?>
 				<?php while ( have_posts() ) : the_post(); ?>
 
 				
-					<div class="product-item"><div class ="post-image"><?php the_post_thumbnail( 'medium' ); ?></div>
+					<div class="product-item"><div class ="post-image-shop"><?php the_post_thumbnail( 'medium' ); ?></div>
 					<div class="product-info">
-						<div class="post-title"><h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3></div>    
+						<div class="post-title-shop"><h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3></div>    
 						<p><?php echo CFS()->get('product_price'); ?></p>
 					</div>
 					</div>

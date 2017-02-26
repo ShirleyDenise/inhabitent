@@ -40,8 +40,35 @@
     max-width: 23%;
 }
 
-.post-image{
+.post-image-shop{
+    padding-bottom: 0;
+    height: 250px;
     img{
-        height: auto;
+        border: $solid_boder;
+        border-bottom-width: 5px;
+        height: 250px;
+        width: auto;
+    }
+}
+
+.product-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    height: 3rem;
+    border: $solid_boder;
+    // content: "...........";
+}
+
+.post-title-shop{
+    a{
+        text-decoration: none;
+        color: black;
+        letter-spacing: 0;
+        font-size: 1rem;
+        font-weight: 400;
+    }
+    p{
+        // margin-bottom: 0;
     }
 }
