@@ -320,7 +320,7 @@ mark, ins {
 big {
   font-size: 125%; }
 
-body, .BodyA {
+body, p.BodyA {
   font-family: "merriweather", serif;
   font-size: 16px;
   line-height: 1.75; }
@@ -1174,6 +1174,36 @@ h3.title {
   letter-spacing: 0;
   font-size: 1rem;
   font-weight: 400; }
+
+.single_product_wrapper {
+  padding: 6rem 5rem 5rem 5rem;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around; }
+
+.product-image {
+  max-width: 50%;
+  padding-right: 1.5rem; }
+  .product-image img {
+    width: 600px; }
+
+.product-entry {
+  max-width: 50%;
+  padding-left: 1.5rem;
+  line-height: 1.75; }
+  .product-entry .product-title {
+    font-family: "novecento", sans-serif;
+    font-size: 2rem;
+    color: #d99054;
+    text-transform: uppercase;
+    margin-top: 0px; }
+
+.single-content p.BodyA {
+  line-height: 1.75; }
+
+p.single-price {
+  size: 1.5rem; }
 
 .login h1 a {
   height: auto; }
