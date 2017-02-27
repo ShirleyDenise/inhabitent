@@ -26,4 +26,4 @@ Still a lot to learn and try as only 10 days was not enough time for me to manag
 
 Especiallay dealing with WP template hierarchy and understanding it better, to not waste time on css for example.
 
-This first experience gave me the opportunity to discover how wordpress themes work. I really enjoyed this experience eventhough I was not able to complete it, I really want to continue my learning experience with wordpress themes.
+This first experience gave me the opportunity to discover how wordpress themes work. I am looking forward to continuing working on building wordpress themes.
