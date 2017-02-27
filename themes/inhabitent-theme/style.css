@@ -729,7 +729,7 @@ a {
   position: relative;
   height: 499px; }
   .entry-header img {
-    height: auto;
+    height: 499px;
     width: 100%; }
 
 .entry-title {
