@@ -13,15 +13,26 @@ get_header(); ?>
 
 				<?php get_template_part( 'template-parts/content', 'single' ); ?>
 
-				<?php the_post_navigation(); ?>
-
+				<div class="social-btn">
+						<div type="button" class="black-button-social">
+							<i class="fa fa-facebook"><span class="action-social">Like</span></i>
+						</div>
+						<div type="button" class="black-button-social">
+							<i class="fa fa-twitter"><span class="action-social">Tweet</span></i>
+						</div>
+						<div type="button" class="black-button-social">
+							<i class="fa fa-pinterest"><span class="action-social">Pin</span></i>
+						</div>
+				</div>
 
 				<?php
 					// If comments are open or we have at least one comment, load up the comment template.
 					if ( comments_open() || get_comments_number() ) :
-						comments_template();
-					endif;
+						 comments_template();?>
+				<?php endif;
+					
 				?>
+				
 
 
 

@@ -320,7 +320,7 @@ mark, ins {
 big {
   font-size: 125%; }
 
-body, p.BodyA {
+body {
   font-family: "merriweather", serif;
   font-size: 16px;
   line-height: 1.75; }
@@ -390,10 +390,6 @@ table {
   margin: 0 0 1.5rem;
   width: 100%; }
 
-.header-logo img {
-  width: 50px;
-  height: 33 px; }
-
 /*--------------------------------------------------------------
 # Forms
 --------------------------------------------------------------*/
@@ -402,23 +398,26 @@ button,
 input[type="button"],
 input[type="reset"],
 input[type="submit"] {
-  border: 1px solid;
-  border-color: #ccc #ccc #bbb;
-  border-radius: 3px;
-  background: #e6e6e6;
-  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5), inset 0 15px 17px rgba(255, 255, 255, 0.5), inset 0 -5px 12px rgba(0, 0, 0, 0.05);
-  color: rgba(0, 0, 0, 0.8);
-  font-size: 12px;
-  font-size: 0.75rem;
+  background: #248A83;
+  padding: 0.75rem 1.2rem;
+  border: none;
+  border-radius: 0;
+  color: #fff;
+  font-size: .9rem;
   line-height: 1;
-  padding: .6rem 1rem .4rem;
-  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8); }
+  text-transform: uppercase;
+  text-decoration: none; }
+  button:visited,
+  input[type="button"]:visited,
+  input[type="reset"]:visited,
+  input[type="submit"]:visited {
+    color: white; }
   button:hover,
   input[type="button"]:hover,
   input[type="reset"]:hover,
   input[type="submit"]:hover {
-    border-color: #ccc #bbb #aaa;
-    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.8), inset 0 15px 17px rgba(255, 255, 255, 0.8), inset 0 -5px 12px rgba(0, 0, 0, 0.02); }
+    background: #19625d;
+    color: #fff; }
   button:active, button:focus,
   input[type="button"]:active,
   input[type="button"]:focus,
@@ -455,8 +454,12 @@ input[type="search"] {
   padding: 3px; }
 
 textarea {
+  color: #666;
   padding-left: 3px;
-  width: 100%; }
+  width: 100%;
+  background-color: #f4f4f4;
+  border: 1px solid #e1e1e1;
+  border-radius: 0; }
 
 /*--------------------------------------------------------------
 # Navigation
@@ -1248,16 +1251,57 @@ p.single-price {
       flex-wrap: nowrap; }
   .single .entry-title {
     color: white;
-    font-family: 'novecento',sans-serif;
+    font-family: "novecento", sans-serif;
     letter-spacing: 2px;
     text-transform: uppercase;
     line-height: 1.25; }
+    .single .entry-title .entry-content {
+      line-height: 1.75; }
+  .single .entry-footer {
+    text-transform: uppercase;
+    color: #404040;
+    font-family: "merriweather", serif; }
+    .single .entry-footer a {
+      color: #248A83;
+      text-decoration: none; }
+      .single .entry-footer a:hover {
+        color: #404040; }
+    .single .entry-footer .cat-links {
+      margin-right: 2rem; }
 
 .content-area-single {
   width: 75%;
   border-right: 1px solid #e1e1e1;
   padding: 6rem 5rem;
   margin: 0px; }
+
+.reply a, .comment-metadata a, .logged-in-as a {
+  color: #248A83;
+  text-decoration: none; }
+  .reply a:hover, .comment-metadata a:hover, .logged-in-as a:hover {
+    color: #404040; }
+
+.comment-reply-title {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-family: "novecento", sans-serif;
+  font-size: 1.7rem; }
+
+.submit {
+  background: #248A83;
+  padding: 0.75rem 1.2rem;
+  border: none;
+  border-radius: 0;
+  color: #fff;
+  font-size: .9rem;
+  line-height: 1;
+  text-transform: uppercase;
+  text-decoration: none; }
+  .submit:visited {
+    color: white; }
+  .submit:hover {
+    background: #19625d;
+    color: #fff; }
 
 .login h1 a {
   height: auto; }

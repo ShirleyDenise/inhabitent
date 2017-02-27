@@ -4,12 +4,29 @@
     flex-wrap: nowrap;
     .entry-title{
         color: white;
-        font-family: 'novecento',sans-serif;
+        font-family: $accent_fontfamily,sans-serif;
         letter-spacing: 2px;
         text-transform: uppercase; 
         line-height: 1.25;
+    .entry-content{
+        line-height: $base_lineheight;
     }
-	
+    }
+	.entry-footer{
+        text-transform: uppercase;
+        color: $base_fontcolor;
+        font-family: $main_fontfamily, serif;
+        a{
+            color: $green_brand;
+            text-decoration: none;
+            &:hover{
+                color:$base_fontcolor;
+            }
+        }
+        .cat-links{
+            margin-right: 2rem;
+        }
+    }
 	
 }
 
@@ -23,3 +40,40 @@
 	
 }
 
+// comments
+
+.reply, .comment-metadata, .logged-in-as {
+    a{
+            color: $green_brand;
+            text-decoration: none;
+            &:hover{
+                color:$base_fontcolor;
+            }
+        }
+}
+
+.comment-reply-title{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-family: $accent_fontfamily,sans-serif;
+    font-size: 1.7rem;
+}
+
+.submit{
+    background: $green_brand;
+    padding: 0.75rem 1.2rem;
+    border: none;
+    border-radius: 0;
+    color: #fff;
+    font-size: .9rem;
+    line-height: 1;
+    text-transform: uppercase;
+    text-decoration: none;
+    &:visited{
+        color: white;
+    }
+    &:hover{
+    background: #19625d;
+    color: #fff;
+    }
+}
