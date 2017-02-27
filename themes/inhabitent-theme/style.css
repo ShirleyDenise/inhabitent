@@ -1232,6 +1232,20 @@ p.single-price {
     padding-left: 0.6rem;
     font-family: "novecento", sans-serif; }
 
+.single {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: row;
+      flex-direction: row;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap; }
+
+.content-area-single {
+  width: 68%;
+  border-right: 1px solid #e1e1e1;
+  padding: 6rem 5rem;
+  margin: 0px; }
+
 .login h1 a {
   height: auto; }
 
