@@ -10,6 +10,7 @@ Tools:
 - PHP
 - CMS(Wordpress)
 - GULP
+- MAMP
 - Plugin/Custom field suite plugin
 - Widget
 
@@ -25,5 +26,7 @@ First time creating a Wordpress theme.
 Still a lot to learn and try as only 10 days was not enough time for me to manage to do everything needed for this project.
 
 Especiallay dealing with WP template hierarchy and understanding it better, to not waste time on css for example.
+
+I also used MAMP(a local server environment) for the first time and had to deal with some issues. I was be able to solve the issue and to conitnue working on the project. Which result in a great learning experience.
 
 This first experience gave me the opportunity to discover how wordpress themes work. I am looking forward to continuing working on building wordpress themes.
