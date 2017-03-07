@@ -252,13 +252,13 @@ th {
 
 @font-face {
   font-family: 'novecento';
-  src: url("../../fonts/novecento/novecentosanswide-demibold-webfont.eot") format("eot"), url("../../fonts/novecento/novecentosanswide-demibold-webfont.svg") format("svg"), url("../../fonts/novecento/novecentosanswide-demibold-webfont.woff") format("woff"), url("../../fonts/novecento/novecentosanswide-demibold-webfont.ttf") format("truetype"), url("../../fonts/novecento/novecentosanswide-demibold-webfont.woff2") format("woff2");
+  src: url("../../fonts/novecentosanswide-demibold-webfont.eot") format("eot"), url("../../fonts/novecentosanswide-demibold-webfont.svg") format("svg"), url("../../fonts/novecentosanswide-demibold-webfont.woff") format("woff"), url("../../fonts/novecentosanswide-demibold-webfont.ttf") format("truetype"), url("../../fonts/novecentosanswide-demibold-webfont.woff2") format("woff2");
   font-weight: bold;
   font-style: normal; }
 
 @font-face {
   font-family: 'novecento';
-  src: url("../../fonts/novecento/novecentosanswide-normal-webfont.eot") format("eot"), url("../../fonts/novecento/novecentosanswide-normal-webfont.svg") format("svg"), url("../../fonts/novecento/novecentosanswide-normal-webfont.woff") format("woff"), url("../../fonts/novecento/novecentosanswide-normal-webfont.ttf") format("truetype"), url("../../fonts/novecento/novecentosanswide-normal-webfont.woff2") format("woff2");
+  src: url("../../fonts/novecentosanswide-normal-webfont.eot") format("eot"), url("../../fonts/novecentosanswide-normal-webfont.svg") format("svg"), url("../../fonts/novecentosanswide-normal-webfont.woff") format("woff"), url("../../fonts/novecentosanswide-normal-webfont.ttf") format("truetype"), url("../../fonts/novecentosanswide-normal-webfont.woff2") format("woff2");
   font-weight: normal;
   font-style: normal; }
 
