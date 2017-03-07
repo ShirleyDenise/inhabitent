@@ -169,8 +169,33 @@ a {
 		
 	a{
 		padding-left: 1rem;
-		color: #248A83;
+		color: $green_brand;
 		text-transform: uppercase;
 }
 
+}
+
+.search-nav{
+	border: none;
+	padding: 0;
+	.search-field{
+		color: grey;
+		background: transparent;
+		border: none;
+		text-transform: uppercase;
+		width: 11.4rem;
+		&:focus {
+    		outline: none;
+		}
+	}
+	.search-submit{
+		background-color: transparent;
+		color: $green_brand;
+		padding: 0;
+		.icon-search {
+			font-size: inherit;
+			
+		}
+	}
+	
 }

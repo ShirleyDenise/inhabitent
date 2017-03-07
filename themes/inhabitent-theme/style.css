@@ -581,6 +581,24 @@ a {
   color: #248A83;
   text-transform: uppercase; }
 
+.search-nav {
+  border: none;
+  padding: 0; }
+  .search-nav .search-field {
+    color: grey;
+    background: transparent;
+    border: none;
+    text-transform: uppercase;
+    width: 11.4rem; }
+    .search-nav .search-field:focus {
+      outline: none; }
+  .search-nav .search-submit {
+    background-color: transparent;
+    color: #248A83;
+    padding: 0; }
+    .search-nav .search-submit .icon-search {
+      font-size: inherit; }
+
 /*--------------------------------------------------------------
 # Accessibility
 --------------------------------------------------------------*/
