@@ -208,6 +208,7 @@ h3.title{
 .wrapper-story-3-4{
     display: flex;
     flex-direction: row;
+    margin: .7rem;
     order: 3;
     width: 100%;
     height: 48%;
@@ -225,7 +226,7 @@ h3.title{
 .wrapper-story-3{
     background-image: url('../../images/mountain-hikers.jpg');
     background-size: cover;
-    margin: 0.7rem;
+    margin: 0.7rem 0.7rem 0 0;
     width: 50%;
     height: 98%;
     
@@ -236,7 +237,7 @@ h3.title{
 .wrapper-story-4{
     background-image: url('../../images/night-sky.jpg');
     background-size: cover;
-    margin: 0.7rem;
+    margin: 0.7rem 0 0 0.7rem;
     width: 50%;
     height: 98%;
   
