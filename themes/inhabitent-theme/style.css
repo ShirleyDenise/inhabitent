@@ -1147,7 +1147,7 @@ h3.title {
 .wrapper-story-1 {
   background-image: url("../../images/canoe-girl.jpg");
   background-size: cover;
-  margin: 0.5rem;
+  margin: 0.7rem;
   -ms-flex-order: 1;
       order: 1;
   width: 48%;
@@ -1167,19 +1167,28 @@ h3.title {
   -ms-flex-order: 3;
       order: 3;
   width: 100%;
-  height: 50%; }
+  height: 48%; }
 
 .wrapper-story-2 {
   background-image: url("../../images/beach-bonfire.jpg");
-  background-size: cover; }
+  background-size: cover;
+  margin: 0.7rem;
+  width: 100%;
+  height: 48%; }
 
 .wrapper-story-3 {
   background-image: url("../../images/mountain-hikers.jpg");
-  background-size: cover; }
+  background-size: cover;
+  margin: 0.7rem;
+  width: 50%;
+  height: 98%; }
 
 .wrapper-story-4 {
   background-image: url("../../images/night-sky.jpg");
-  background-size: cover; }
+  background-size: cover;
+  margin: 0.7rem;
+  width: 50%;
+  height: 98%; }
 
 .story-details h3 {
   color: white; }
