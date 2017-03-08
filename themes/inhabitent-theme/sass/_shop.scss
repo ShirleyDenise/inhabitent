@@ -8,8 +8,14 @@
 
 .products-header{
     text-align: center;
-    text-transform: uppercase;
-    
+    h1{
+        text-transform: uppercase;
+    }
+    p{
+        border-bottom: $dashed_border;
+        padding-bottom: 3rem;
+        margin-bottom: 0;
+    }
 }
 
 .product-categories{

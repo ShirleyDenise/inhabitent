@@ -79,29 +79,34 @@ get_header(); ?>
                                 <a class="read-more-adv">Read More</a>
                             </div>
                         </div>
-                        <div class="wrapper-story-2">
-                            <div class="story-details">
-                                <h3 class="title">
-                                    A Night with Friends at the Beach
-                                </h3>
-                                <a class="read-more-adv">Read More</a>
+                        <div class="wrapper-story-2-3-4">
+                            <div class="wrapper-story-2">
+                                <div class="story-details">
+                                    <h3 class="title">
+                                        A Night with Friends at the Beach
+                                    </h3>
+                                    <a class="read-more-adv">Read More</a>
+                                </div>
                             </div>
-                        </div>
-                        <div class="wrapper-story-3">
-                            <div class="story-details">
-                                <h3 class="title">
-                                    Taking in the View at Big Mountain
-                                </h3>
-                                <a class="read-more-adv">Read More</a>
-                            </div>
-                        </div>
-                        <div class="wrapper-story-4">
-                            <div class="story-details">
-                                <h3 class="title">
-                                    Star-Gazing at the Night Sky
-                                </h3>
-                                <a class="read-more-adv">Read More</a>
-                            </div>
+                                <div class="wrapper-story-3-4">
+                                        <div class="wrapper-story-3">
+                                            <div class="story-details">
+                                                <h3 class="title">
+                                                    Taking in the View at Big Mountain
+                                                </h3>
+                                                <a class="read-more-adv">Read More</a>
+                                            </div>
+                                        </div>
+                                
+                                        <div class="wrapper-story-4">
+                                            <div class="story-details">
+                                                <h3 class="title">
+                                                    Star-Gazing at the Night Sky
+                                                </h3>
+                                                <a class="read-more-adv">Read More</a>
+                                            </div>
+                                        </div>
+                                </div>
                         </div>
                     </div>
                     <div class="more-adv-btn">

@@ -1153,32 +1153,33 @@ h3.title {
   width: 48%;
   height: 88%; }
 
-.wrapper-story-2 {
-  background-image: url("../../images/beach-bonfire.jpg");
-  background-size: cover;
-  margin: 0.5rem;
+.wrapper-story-2-3-4 {
   -ms-flex-order: 2;
       order: 2;
   width: 48%;
-  height: 40%; }
+  height: 88%; }
+
+.wrapper-story-3-4 {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: row;
+      flex-direction: row;
+  -ms-flex-order: 3;
+      order: 3;
+  width: 100%;
+  height: 50%; }
+
+.wrapper-story-2 {
+  background-image: url("../../images/beach-bonfire.jpg");
+  background-size: cover; }
 
 .wrapper-story-3 {
   background-image: url("../../images/mountain-hikers.jpg");
-  background-size: cover;
-  margin: 0.5rem;
-  -ms-flex-order: 3;
-      order: 3;
-  width: 23%;
-  height: 40%; }
+  background-size: cover; }
 
 .wrapper-story-4 {
   background-image: url("../../images/night-sky.jpg");
-  background-size: cover;
-  margin: 0.5rem;
-  -ms-flex-order: 4;
-      order: 4;
-  width: 23%;
-  height: 40%; }
+  background-size: cover; }
 
 .story-details h3 {
   color: white; }
@@ -1194,9 +1195,26 @@ h3.title {
     background-color: #248A83;
     color: white; }
 
-.more-adv {
+.more-adv-btn {
   padding-left: 5rem;
   padding-right: 5rem; }
+
+.more-adv {
+  background: #248A83;
+  font-family: "novecento";
+  padding: 0.75rem 1.2rem;
+  border: none;
+  border-radius: 0;
+  color: #fff;
+  font-size: .9rem;
+  line-height: 1;
+  text-transform: uppercase;
+  text-decoration: none; }
+  .more-adv:visited {
+    color: white; }
+  .more-adv:hover {
+    background: #19625d;
+    color: #fff; }
 
 .page-template-about .site-content {
   padding-left: 0; }
@@ -1269,8 +1287,13 @@ h3.title {
   padding: 5rem; }
 
 .products-header {
-  text-align: center;
-  text-transform: uppercase; }
+  text-align: center; }
+  .products-header h1 {
+    text-transform: uppercase; }
+  .products-header p {
+    border-bottom: 1px dashed #c8c8c8;
+    padding-bottom: 3rem;
+    margin-bottom: 0; }
 
 .product-categories {
   text-align: center;
