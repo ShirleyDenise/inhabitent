@@ -135,21 +135,39 @@ a {
 # Style
 --------------------------------------------------------------*/
 
-.hfeed.site
+.site-header
 {
 	display: flex;
 	flex-wrap: wrap;
+	justify-content: space-between;
+
 }
 
-.main-navigation {
+.site-branding{
 	position: fixed;
 	display: flex;
     z-index: 3;
 	background-color: hsla(0,0%,100%,.85);
 	transition: background .5s ease-in-out;
 	flex-direction: row;
-	justify-content: space-between;
-	flex-wrap: wrap;
+	flex-wrap: wrap;	
+	width: 100%;
+	border-bottom: 1px solid #e1e1e1;
+	padding-left: 5rem;
+	padding-right: 5rem;
+	height: 50px;
+	align-items: center;
+}
+
+.main-navigation {
+	justify-content: flex-end;
+	position: fixed;
+	display: flex;
+    z-index: 3;
+	
+	transition: background .5s ease-in-out;
+	flex-direction: row;
+	flex-wrap: wrap;	
 	width: 100%;
 	border-bottom: 1px solid #e1e1e1;
 	padding-left: 5rem;
@@ -166,6 +184,8 @@ a {
 }
 
 .menu-main-nav-container {
+	display: flex;
+	justify-content: flex-end;
 		
 	a{
 		padding-left: 1rem;
@@ -175,19 +195,28 @@ a {
 
 }
 
+// search bar
+
 .search-nav{
 	border: none;
-	padding: 0;
+	padding: 0 0 0 1rem;
 	.search-field{
 		display: none;
 		color: grey;
 		background: transparent;
 		border: none;
 		text-transform: uppercase;
-		width: 11.4rem;
+		width: 11.3rem;
 		&:focus {
     		outline: none;
 		}
+	}
+	//404
+	.search-field-404{
+		font-family: $main_fontfamily;
+		padding: 0.4rem;
+		background-color: #f4f4f4;
+		border-radius: 0;
 	}
 	.search-submit{
 		background-color: transparent;

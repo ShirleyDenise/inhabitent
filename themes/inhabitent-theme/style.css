@@ -545,13 +545,15 @@ a {
 /*--------------------------------------------------------------
 # Style
 --------------------------------------------------------------*/
-.hfeed.site {
+.site-header {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap; }
+      flex-wrap: wrap;
+  -ms-flex-pack: justify;
+      justify-content: space-between; }
 
-.main-navigation {
+.site-branding {
   position: fixed;
   display: -ms-flexbox;
   display: flex;
@@ -560,8 +562,26 @@ a {
   transition: background .5s ease-in-out;
   -ms-flex-direction: row;
       flex-direction: row;
-  -ms-flex-pack: justify;
-      justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+  border-bottom: 1px solid #e1e1e1;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  height: 50px;
+  -ms-flex-align: center;
+      align-items: center; }
+
+.main-navigation {
+  -ms-flex-pack: end;
+      justify-content: flex-end;
+  position: fixed;
+  display: -ms-flexbox;
+  display: flex;
+  z-index: 3;
+  transition: background .5s ease-in-out;
+  -ms-flex-direction: row;
+      flex-direction: row;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   width: 100%;
@@ -576,23 +596,33 @@ a {
   width: 50px;
   height: 33px; }
 
-.menu-main-nav-container a {
-  padding-left: 1rem;
-  color: #248A83;
-  text-transform: uppercase; }
+.menu-main-nav-container {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: end;
+      justify-content: flex-end; }
+  .menu-main-nav-container a {
+    padding-left: 1rem;
+    color: #248A83;
+    text-transform: uppercase; }
 
 .search-nav {
   border: none;
-  padding: 0; }
+  padding: 0 0 0 1rem; }
   .search-nav .search-field {
     display: none;
     color: grey;
     background: transparent;
     border: none;
     text-transform: uppercase;
-    width: 11.4rem; }
+    width: 11.3rem; }
     .search-nav .search-field:focus {
       outline: none; }
+  .search-nav .search-field-404 {
+    font-family: "merriweather";
+    padding: 0.4rem;
+    background-color: #f4f4f4;
+    border-radius: 0; }
   .search-nav .search-submit {
     background-color: transparent;
     color: #248A83;
