@@ -25,13 +25,13 @@ get_header(); ?>
 		      		<div class="single-content"><?php the_content(); ?></div>
 					<div class="social-btn">
 						<div type="button" class="black-button-social">
-							<i class="fa fa-facebook"><span class="action-social">Like</span></i>
+							<i class="fa fa-facebook" aria-hidden="true"><span class="action-social">Like</span></i>
 						</div>
 						<div type="button" class="black-button-social">
-							<i class="fa fa-twitter"><span class="action-social">Tweet</span></i>
+							<i class="fa fa-twitter" aria-hidden="true"><span class="action-social">Tweet</span></i>
 						</div>
 						<div type="button" class="black-button-social">
-							<i class="fa fa-pinterest"><span class="action-social">Pin</span></i>
+							<i class="fa fa-pinterest" aria-hidden="true"><span class="action-social">Pin</span></i>
 						</div>
 					</div>
 		      	</div><!-- .entry-content -->
