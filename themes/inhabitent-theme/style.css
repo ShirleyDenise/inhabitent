@@ -585,6 +585,7 @@ a {
   border: none;
   padding: 0; }
   .search-nav .search-field {
+    display: none;
     color: grey;
     background: transparent;
     border: none;
@@ -1126,16 +1127,16 @@ h3.title {
   text-align: center; }
 
 .page-template-about .about-title {
+  font-size: 3rem;
   color: white;
   text-transform: uppercase;
   letter-spacing: 2px;
   text-align: center;
   margin-top: 0;
   position: absolute;
-  top: 50%;
+  top: 39%;
   left: 0;
-  right: 0;
-  margin-top: -29px; }
+  right: 0; }
 
 .text-about {
   margin: 3rem 15rem; }
@@ -1379,12 +1380,3 @@ p.single-price {
 
 .login h1 a {
   height: auto; }
-
-.findus {
-  display: -ms-flexbox;
-  display: flex; }
-
-.content-area-findus {
-  width: 68%;
-  border-right: 1px solid #e1e1e1;
-  padding: 6rem 3.5rem; }
