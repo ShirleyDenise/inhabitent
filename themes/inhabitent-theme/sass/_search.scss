@@ -1,0 +1,46 @@
+.search.search-results.logged-in.admin-bar.debug-bar-maximized.customize-support{
+    .content-area{
+        padding-left: 5rem;
+    }
+    .entry-header {
+        height: 5rem;
+    }
+    .page-title{
+        text-transform: uppercase;
+        font-size: 2.4rem;
+        padding-bottom: 0.8rem;
+        margin-top: 0;
+        border-bottom: $solid_boder;
+    }
+    .entry-title{
+        background-color: white;
+        padding: 0;
+        a{
+            color: $green_brand;
+        }
+    }
+
+    .search-pagination{
+        border-top: $solid_boder;
+        padding-top: 1.5rem;
+        font-family: $accent_fontfamily;
+        margin-top: 4rem;
+        a{
+            background-color: $green_brand;
+            color: white;
+            text-decoration: none;
+            padding: 0.5rem 0.75rem;
+            margin-right: 0.3rem;
+            &:hover{
+                background-color: $purple_brand;
+            }
+        }
+        
+    }
+    .page-numbers.current{
+        background-color: gray;
+        color: white;
+        padding: 0.5rem 0.75rem;
+        margin-right: 0.3rem;
+    }
+}

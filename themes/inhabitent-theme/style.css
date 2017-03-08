@@ -1226,6 +1226,45 @@ h3.title {
     font-size: 2.1rem;
     margin-bottom: 0; }
 
+.search.search-results.logged-in.admin-bar.debug-bar-maximized.customize-support .content-area {
+  padding-left: 5rem; }
+
+.search.search-results.logged-in.admin-bar.debug-bar-maximized.customize-support .entry-header {
+  height: 5rem; }
+
+.search.search-results.logged-in.admin-bar.debug-bar-maximized.customize-support .page-title {
+  text-transform: uppercase;
+  font-size: 2.4rem;
+  padding-bottom: 0.8rem;
+  margin-top: 0;
+  border-bottom: 1px solid #e1e1e1; }
+
+.search.search-results.logged-in.admin-bar.debug-bar-maximized.customize-support .entry-title {
+  background-color: white;
+  padding: 0; }
+  .search.search-results.logged-in.admin-bar.debug-bar-maximized.customize-support .entry-title a {
+    color: #248A83; }
+
+.search.search-results.logged-in.admin-bar.debug-bar-maximized.customize-support .search-pagination {
+  border-top: 1px solid #e1e1e1;
+  padding-top: 1.5rem;
+  font-family: "novecento";
+  margin-top: 4rem; }
+  .search.search-results.logged-in.admin-bar.debug-bar-maximized.customize-support .search-pagination a {
+    background-color: #248A83;
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 0.75rem;
+    margin-right: 0.3rem; }
+    .search.search-results.logged-in.admin-bar.debug-bar-maximized.customize-support .search-pagination a:hover {
+      background-color: #2f1339; }
+
+.search.search-results.logged-in.admin-bar.debug-bar-maximized.customize-support .page-numbers.current {
+  background-color: gray;
+  color: white;
+  padding: 0.5rem 0.75rem;
+  margin-right: 0.3rem; }
+
 .products-content-area {
   padding: 5rem; }
 
