@@ -1,7 +1,11 @@
-// $('.search-field').on('focusout', function(){
-//     $(this).animate({width: 0});
-//   });
+//  (function( $ ) {
+//      $('#search-nav').on('click', function() {
+//          $('#search-field').animate( { width: 'toggle' }, 500 ).focus();
+//      });
 
-// $(function () {
-//     $('.search-field').hide();
-// });
+//      $('#search-field').on('blur', function() {
+//          $('#search-field').animate( { width: 'toggle' }, 500 );
+//      });
+
+//      $('#search-field').animate( { width: 'toggle' }, 0 );
+// })( jQuery ); 

@@ -9,7 +9,7 @@ get_header(); ?>
 
 
 
-    <div id="primary" class="content-area">
+    <div id="primary" class="content-area-about">
         <main id="main" class="site-main-about" role="main">
         
             <header class="page-header">

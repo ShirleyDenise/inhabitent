@@ -1117,15 +1117,15 @@ h3.title {
   padding-left: 5rem;
   padding-right: 5rem; }
 
-.site-content {
+.page-template-about .site-content {
   padding-left: 0; }
 
-.page-header {
+.page-template-about .page-header {
   height: 100vh;
   position: relative;
   text-align: center; }
 
-.about-title {
+.page-template-about .about-title {
   color: white;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -1295,8 +1295,18 @@ p.single-price {
 .content-area-single {
   width: 75%;
   border-right: 1px solid #e1e1e1;
-  padding: 6rem 5rem;
+  padding: 6rem 3rem 6rem 5rem;
   margin: 0px; }
+
+.comment-form {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column; }
+  .comment-form label {
+    text-transform: uppercase; }
+  .comment-form .comment-form-url input {
+    width: 89%; }
 
 .reply a, .comment-metadata a, .logged-in-as a {
   color: #248A83;
@@ -1304,11 +1314,40 @@ p.single-price {
   .reply a:hover, .comment-metadata a:hover, .logged-in-as a:hover {
     color: #404040; }
 
-.comment-reply-title {
+.comments-title, .comment-reply-title {
   text-transform: uppercase;
   letter-spacing: 2px;
-  font-family: "novecento", sans-serif;
+  font-family: "novecento", sans-serif; }
+
+.comment-reply-title {
   font-size: 1.7rem; }
+
+.comments-title {
+  font-size: 2rem; }
+
+.comment-list {
+  margin: 0;
+  padding-left: 0; }
+
+.comment-body {
+  display: -ms-flexbox;
+  display: flex;
+  border-bottom: 1px solid #e1e1e1;
+  padding: 2rem 0; }
+
+.comment-author-avatar img {
+  border-radius: 50%; }
+
+.comment-content {
+  padding-left: 1rem; }
+  .comment-content .fn {
+    font-style: normal;
+    font-weight: bold; }
+  .comment-content .comment-metadata {
+    color: #808080; }
+
+.required {
+  color: #d99054; }
 
 .submit {
   background: #248A83;
@@ -1325,6 +1364,18 @@ p.single-price {
   .submit:hover {
     background: #19625d;
     color: #fff; }
+
+.site-content {
+  display: -ms-flexbox;
+  display: flex; }
+
+.content-area {
+  width: 68%;
+  border-right: 1px solid #e1e1e1;
+  padding: 6rem 3.5rem; }
+
+.page-header {
+  height: 5rem; }
 
 .login h1 a {
   height: auto; }
