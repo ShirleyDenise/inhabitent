@@ -9,8 +9,68 @@
      flex: wrap;
      min-height: 100vh;
      margin: 0;
+  
+ }
+
+ /* Find US */
+
+ .page-id-44{
+     h1{
+         margin: 0;
+         text-transform: uppercase;
+         font-size: 2.5rem;
+     }
+     h2{
+         color:#2f1339;
+         font-size: 2.1rem;
+     }
+     label{
+         text-transform: uppercase;
+         color:#2f1339;
+     }
+     input{
+         background-color: #f4f4f4;
+         border-radius: 0;
+     }
+     iframe{
+         width: 600px;
+     }
+ }
+ 
+ /* 404 */ 
+ .error-404{
+     .content-area{
+         padding-left: 4rem;
+     }
+     h1{
+         font-size: 2.4rem;
+         text-transform: uppercase;
+     }
+     h2{
+         color: $purple_brand;
+         font-size: 1.5rem;
+         text-transform: uppercase;
+     }
+     ul{
+     list-style: none;
+     margin-left: 0;
+     padding-left: 0;
+     a{
+        color: #248a83;
+        text-decoration: none;
+        &:visited{
+            color: #248a83;
+        }
+      }
      
-     
+        }
+     select{
+         font-family: $main_fontfamily;
+        }
+        p{
+            margin-bottom: 0.4rem;
+        }
+
  }
  
 
