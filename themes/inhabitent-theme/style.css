@@ -585,6 +585,7 @@ a {
   border: none;
   padding: 0; }
   .search-nav .search-field {
+    display: none;
     color: grey;
     background: transparent;
     border: none;
@@ -1029,7 +1030,7 @@ object {
   .product-type-wrapper:hover {
     border-color: #d99054; }
 
-.stuff-btn {
+.stuff-btn, .wpcf7-form-control.wpcf7-submit {
   background: #248A83;
   padding: 0.75rem 1.2rem;
   border: none;
@@ -1039,9 +1040,9 @@ object {
   line-height: 1;
   text-transform: uppercase;
   text-decoration: none; }
-  .stuff-btn:visited {
+  .stuff-btn:visited, .wpcf7-form-control.wpcf7-submit:visited {
     color: white; }
-  .stuff-btn:hover {
+  .stuff-btn:hover, .wpcf7-form-control.wpcf7-submit:hover {
     background: #19625d;
     color: #fff; }
 

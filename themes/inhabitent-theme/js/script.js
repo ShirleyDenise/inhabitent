@@ -1,9 +1,16 @@
-//  (function( $ ) {
-//      $('.search-submit').on('click', function() {
-//        event.preventDefault();
-//        event.stopPropagation();
-//        $('.search-field').toggle().focus();
-//      });
+ $(function() {
+    $('.site-content').click(function() {
+    $('.search-field').show();
+    });
 
-     
-// })( jQuery ); 
+    $('.search-submit').on('click', function(event) {
+    event.preventDefault();
+    event.stopPropagation();
+    $('.search-field').toggle().focus();
+    });
+
+    
+
+
+ });
+(jQuery);
