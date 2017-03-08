@@ -1,9 +1,9 @@
 
-    .site-content:not(.products-template-default.single.single-products.postid-99.logged-in.admin-bar.debug-bar-maximized.customize-support){
+    .site-content{
         display: flex;
         // justify-content: 
     }
-    .content-area:not(.products-template-default.single.single-products.postid-99.logged-in.admin-bar.debug-bar-maximized.customize-support){
+    .content-area{
 	width: 68%;
 	border-right: $solid_boder;
 	padding: 6rem 3.5rem;

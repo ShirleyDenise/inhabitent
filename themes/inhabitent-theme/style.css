@@ -585,7 +585,6 @@ a {
   border: none;
   padding: 0; }
   .search-nav .search-field {
-    display: none;
     color: grey;
     background: transparent;
     border: none;
@@ -804,7 +803,7 @@ a {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   width: 100%;
-  height: 320px;
+  height: 345px;
   background-color: black;
   background-image: url("../../images/dark-wood.png");
   background-size: 512px 512px; }
@@ -1256,10 +1255,19 @@ h3.title {
   color: black;
   letter-spacing: 0;
   font-size: 1rem;
-  font-weight: 400; }
+  font-weight: 400;
+  white-space: nowrap;
+  overflow: hidden; }
+  .post-title-shop h3:after {
+    content: '..........';
+    display: inline;
+    overflow: hidden; }
+
+.content-area-single {
+  width: 100%; }
 
 .single_product_wrapper {
-  padding: 6rem 5rem 5rem 5rem;
+  padding: 6rem 5rem 8.4rem 5rem;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: distribute;
@@ -1416,11 +1424,11 @@ p.single-price {
     background: #19625d;
     color: #fff; }
 
-.site-content:not(.products-template-default.single.single-products.postid-99.logged-in.admin-bar.debug-bar-maximized.customize-support) {
+.site-content {
   display: -ms-flexbox;
   display: flex; }
 
-.content-area:not(.products-template-default.single.single-products.postid-99.logged-in.admin-bar.debug-bar-maximized.customize-support) {
+.content-area {
   width: 68%;
   border-right: 1px solid #e1e1e1;
   padding: 6rem 3.5rem; }

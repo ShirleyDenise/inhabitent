@@ -70,5 +70,12 @@
         letter-spacing: 0;
         font-size: 1rem;
         font-weight: 400;
+        white-space: nowrap;
+        overflow: hidden;
+        &:after{
+            content:'..........';
+            display: inline;
+            overflow: hidden;
+        }
     }
 }
