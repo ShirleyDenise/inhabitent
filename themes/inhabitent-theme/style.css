@@ -1416,11 +1416,11 @@ p.single-price {
     background: #19625d;
     color: #fff; }
 
-.site-content {
+.site-content:not(.products-template-default.single.single-products.postid-99.logged-in.admin-bar.debug-bar-maximized.customize-support) {
   display: -ms-flexbox;
   display: flex; }
 
-.content-area {
+.content-area:not(.products-template-default.single.single-products.postid-99.logged-in.admin-bar.debug-bar-maximized.customize-support) {
   width: 68%;
   border-right: 1px solid #e1e1e1;
   padding: 6rem 3.5rem; }

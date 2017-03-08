@@ -1,9 +1,9 @@
 
-    .site-content{
+    .site-content:not(.products-template-default.single.single-products.postid-99.logged-in.admin-bar.debug-bar-maximized.customize-support){
         display: flex;
         // justify-content: 
     }
-    .content-area{
+    .content-area:not(.products-template-default.single.single-products.postid-99.logged-in.admin-bar.debug-bar-maximized.customize-support){
 	width: 68%;
 	border-right: $solid_boder;
 	padding: 6rem 3.5rem;
