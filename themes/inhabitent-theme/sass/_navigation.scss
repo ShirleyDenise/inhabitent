@@ -159,8 +159,12 @@ a {
 	align-items: center;
 }
 
+.menu-right{
+	display: flex;
+}
+
 .main-navigation {
-	justify-content: flex-end;
+	justify-content: space-between;
 	position: fixed;
 	display: flex;
     z-index: 3;
@@ -176,6 +180,12 @@ a {
 	align-items: center;
 	
 	
+}
+
+.primary-menu{
+	display: flex;
+	justify-content: flex-end;
+
 }
 
 .header-logo {
