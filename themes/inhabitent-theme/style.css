@@ -616,28 +616,28 @@ a {
     color: #248A83;
     text-transform: uppercase; }
 
-.search-nav {
+.search-form {
   border: none;
   padding: 0 0 0 1rem; }
-  .search-nav .search-field {
+  .search-form .search-field {
     display: none;
     color: grey;
     background: transparent;
     border: none;
     text-transform: uppercase;
     width: 11.3rem; }
-    .search-nav .search-field:focus {
+    .search-form .search-field:focus {
       outline: none; }
-  .search-nav .search-field-404 {
+  .search-form .search-field-404 {
     font-family: "merriweather";
     padding: 0.4rem;
     background-color: #f4f4f4;
     border-radius: 0; }
-  .search-nav .search-submit {
+  .search-form .search-submit {
     background-color: transparent;
     color: #248A83;
     padding: 0; }
-    .search-nav .search-submit .icon-search {
+    .search-form .search-submit .icon-search {
       font-size: inherit; }
 
 /*--------------------------------------------------------------
@@ -1529,7 +1529,7 @@ p.single-price {
     font-style: normal;
     font-weight: bold; }
   .comment-content .comment-metadata {
-    color: #f4f4f4; }
+    color: gray; }
 
 .required {
   color: #d99054; }
