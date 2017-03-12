@@ -616,28 +616,28 @@ a {
     color: #248A83;
     text-transform: uppercase; }
 
-.search-form {
+.search-nav {
   border: none;
   padding: 0 0 0 1rem; }
-  .search-form .search-field {
+  .search-nav .search-field {
     display: none;
     color: grey;
     background: transparent;
     border: none;
     text-transform: uppercase;
     width: 11.3rem; }
-    .search-form .search-field:focus {
+    .search-nav .search-field:focus {
       outline: none; }
-  .search-form .search-field-404 {
+  .search-nav .search-field-404 {
     font-family: "merriweather";
     padding: 0.4rem;
     background-color: #f4f4f4;
     border-radius: 0; }
-  .search-form .search-submit {
+  .search-nav .search-submit {
     background-color: transparent;
     color: #248A83;
     padding: 0; }
-    .search-form .search-submit .icon-search {
+    .search-nav .search-submit .icon-search {
       font-size: inherit; }
 
 /*--------------------------------------------------------------
@@ -800,7 +800,8 @@ a {
   background-color: #248a83;
   max-width: 75%;
   padding: 0.75rem 1.5rem;
-  font-size: 2.1rem; }
+  font-size: 2.1rem;
+  line-height: normal; }
   .entry-title a {
     color: white;
     text-decoration: none;

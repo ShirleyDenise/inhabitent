@@ -1,16 +1,13 @@
- $(function() {
-    $('.site-content').click(function() {
-    $('.search-field').show();
+ jQuery(function() {
+    jQuery('.site-content').click(function() {
+    jQuery('.search-field').show();
     });
 
-    $('.search-submit').on('click', function(event) {
+    jQuery('.search-submit').on('click', function(event) {
     event.preventDefault();
     event.stopPropagation();
-    $('.search-field').toggle().focus();
+    jQuery('.search-field').toggle().focus();
     });
-
-    
-
 
  });
 (jQuery);

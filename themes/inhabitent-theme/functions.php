@@ -86,6 +86,8 @@ function red_starter_scripts() {
 	wp_enqueue_style( 'red-starter-style', get_stylesheet_uri() );
 	wp_enqueue_script('font-awesome_cdn', 'https://use.fontawesome.com/75f5ac9bf1.js', array(), '4.4.0'); // font awesome 
 
+	wp_enqueue_script( 'jquery');
+
 	wp_enqueue_script( 'script-min-js', get_template_directory_uri() . '/build/js/script.min.js' ); //script search bar
 
 	wp_enqueue_script( 'red-starter-skip-link-focus-fix', get_template_directory_uri() . '/build/js/skip-link-focus-fix.min.js', array(), '20130115', true );
