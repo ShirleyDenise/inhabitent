@@ -4,17 +4,21 @@
 
 /* Front page */
  #page {
-     display: flex;
-     flex-direction: column;
+    //  display: flex;
+    //  flex-direction: column;
      flex: wrap;
      min-height: 100vh;
      margin: 0;
-  
  }
 
- /* Find US */
+ 
 
+ /* Find US */
  .page-id-44{
+     #page{
+        display: flex;
+        flex-direction: row;
+     }
      h1{
          margin: 0;
          text-transform: uppercase;
@@ -38,7 +42,11 @@
  }
  
  /* 404 */ 
- .error-404{
+ .error404{
+     #page{
+        display: flex;
+        flex-direction: row;
+     }
      .content-area{
          padding-left: 4rem;
      }
@@ -71,6 +79,25 @@
             margin-bottom: 0.4rem;
         }
 
+ }
+
+ /* Search */ 
+
+ .search{
+     .entry-title{
+         position: relative;
+         a{
+             &:hover{
+             color: black;
+         }
+         }
+     }
+     .entry-meta{
+         color: $base_fontcolor;
+         background-color: white;
+         left: 0;
+         padding-left: 0;
+     }
  }
  
 

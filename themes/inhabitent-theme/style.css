@@ -953,16 +953,18 @@ object {
 --------------------------------------------------------------*/
 /* Front page */
 #page {
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-direction: column;
-      flex-direction: column;
   -ms-flex: wrap;
       flex: wrap;
   min-height: 100vh;
   margin: 0; }
 
 /* Find US */
+.page-id-44 #page {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: row;
+      flex-direction: row; }
+
 .page-id-44 h1 {
   margin: 0;
   text-transform: uppercase;
@@ -984,33 +986,51 @@ object {
   width: 600px; }
 
 /* 404 */
-.error-404 .content-area {
+.error404 #page {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: row;
+      flex-direction: row; }
+
+.error404 .content-area {
   padding-left: 4rem; }
 
-.error-404 h1 {
+.error404 h1 {
   font-size: 2.4rem;
   text-transform: uppercase; }
 
-.error-404 h2 {
+.error404 h2 {
   color: #2f1339;
   font-size: 1.5rem;
   text-transform: uppercase; }
 
-.error-404 ul {
+.error404 ul {
   list-style: none;
   margin-left: 0;
   padding-left: 0; }
-  .error-404 ul a {
+  .error404 ul a {
     color: #248a83;
     text-decoration: none; }
-    .error-404 ul a:visited {
+    .error404 ul a:visited {
       color: #248a83; }
 
-.error-404 select {
+.error404 select {
   font-family: "merriweather"; }
 
-.error-404 p {
+.error404 p {
   margin-bottom: 0.4rem; }
+
+/* Search */
+.search .entry-title {
+  position: relative; }
+  .search .entry-title a:hover {
+    color: black; }
+
+.search .entry-meta {
+  color: #404040;
+  background-color: white;
+  left: 0;
+  padding-left: 0; }
 
 .home .page-title {
   display: none; }
